@@ -25,6 +25,6 @@ wnc.compile_model()
 wnc.fit_model(
     train_data=x_train,
     train_labels=y_train,
-    val_data=(x_val, y_val),
+    val_data=(x_val, y_val)
     sample_weight=sample_weight
 )
