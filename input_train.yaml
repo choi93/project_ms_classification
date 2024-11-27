@@ -1,0 +1,19 @@
+data_params:
+  input_shape: 25000
+  output_shape: 5
+
+# 모델 파라미터
+model_params:
+  kernel_size: 2
+  dilation_depth: 9
+  n_filters: 40
+
+# 트레이너 파라미터
+train_params:
+  optimizer: 'adam'
+  loss: 'categorical_crossentropy'
+  beta: 2.0
+  batch_size: 32
+  epochs: 100
+  save: false
+  save_dir: './'
