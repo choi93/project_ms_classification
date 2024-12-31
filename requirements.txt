@@ -1,0 +1,6 @@
+numpy==1.26.4
+pandas==2.2.3
+pyyaml==6.0.2
+tensorflow==2.15.0
+tensorflow-addons==0.23.0
+scikit-learn==1.5.2
